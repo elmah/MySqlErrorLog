@@ -1,0 +1,27 @@
+<?xml version="1.0"?>
+<package xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <metadata xmlns="http://schemas.microsoft.com/packaging/2010/07/nuspec.xsd">
+    <id>elmah.mysql</id>
+    <version>2.0.0$VersionSuffix$</version>
+    <title>MySQL Error Log for ELMAH</title>
+    <authors>Atif Aziz</authors>
+    <owners>Atif Aziz, James Driscoll</owners>
+    <licenseUrl>http://www.apache.org/licenses/LICENSE-2.0</licenseUrl>
+    <projectUrl>https://github.com/elmah/MySqlErrorLog</projectUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <description>ELMAH error log implementation on top of a MySQL database.</description>
+    <language>en-US</language>
+    <tags>mysql elmah error logging unhandled exception</tags>
+    <dependencies>
+      <dependency id="elmah.corelibrary" version="2.0.0-alpha001" />
+    </dependencies>
+  </metadata>
+  <files>
+    <file src="bin\Release\Elmah.MySql.*" target="lib\net35" />
+    <file src="bin\Release\mysql.data.dll" target="lib\net35" />
+    <file src="COPYING.txt" />
+    <file src="src\readme.txt" target="" />
+    <file src="src\MySql.sql" target="" />
+    <file src="src\*.cs" target="src" />
+  </files>
+</package>
