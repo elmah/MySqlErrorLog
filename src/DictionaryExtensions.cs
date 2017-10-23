@@ -14,8 +14,6 @@
 //
 #endregion
 
-[assembly: Elmah.Scc("$Id: DictionaryExtensions.cs 645 2009-06-01 21:42:07Z azizatif $")]
-
 namespace Elmah
 {
     #region Imports

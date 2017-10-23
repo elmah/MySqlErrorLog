@@ -14,8 +14,6 @@
 //
 #endregion
 
-[assembly: Elmah.Scc("$Id: MySqlErrorLog.cs 925 2011-12-23 22:46:09Z azizatif $")]
-
 namespace Elmah.MySql
 {
     #region Imports

@@ -14,8 +14,6 @@
 //
 #endregion
 
-[assembly: Elmah.Scc("$Id: Build.cs 776 2011-01-12 21:09:24Z azizatif $")]
-
 namespace Elmah
 {
     internal static class Build
