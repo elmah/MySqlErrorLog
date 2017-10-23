@@ -46,9 +46,7 @@
   <ItemGroup>
     <Compile Include="Build.cs" />
     <Compile Include="ConnectionStringHelper.cs" />
-    <Compile Include="Debug.cs" />
     <Compile Include="DictionaryExtensions.cs" />
-    <Compile Include="JetBrains.Annotations.cs" />
     <Compile Include="MySqlErrorLog.cs" />
     <Compile Include="AssemblyInfo.cs" />
   </ItemGroup>

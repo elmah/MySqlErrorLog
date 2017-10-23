@@ -19,16 +19,9 @@
 
 namespace Elmah
 {
-    #region Imports
-
-    using System;
     using System.Configuration;
-    using System.Data.Common;
-    using System.IO;
-    using System.Runtime.CompilerServices;
     using IDictionary = System.Collections.IDictionary;
-
-    #endregion
+    using Debug = System.Diagnostics.Debug;
 
     /// <summary>
     /// Helper class for resolving connection strings.

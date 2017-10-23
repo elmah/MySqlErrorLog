@@ -34,6 +34,7 @@ namespace Elmah
     using MySql.Data.MySqlClient;
 
     using IDictionary = System.Collections.IDictionary;
+    using Debug = System.Diagnostics.Debug;
 
     #endregion
 
