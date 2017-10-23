@@ -16,7 +16,7 @@
 
 [assembly: Elmah.Scc("$Id: MySqlErrorLog.cs 925 2011-12-23 22:46:09Z azizatif $")]
 
-namespace Elmah
+namespace Elmah.MySql
 {
     #region Imports
 
@@ -24,7 +24,7 @@ namespace Elmah
     using System.Collections.Generic;
     using System.Data;
 
-    using MySql.Data.MySqlClient;
+    using global::MySql.Data.MySqlClient;
 
     using IDictionary = System.Collections.IDictionary;
     using Debug = System.Diagnostics.Debug;
