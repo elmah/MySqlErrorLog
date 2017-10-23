@@ -4,8 +4,8 @@
     <id>elmah.mysql</id>
     <version>2.0.0$VersionSuffix$</version>
     <title>MySQL Error Log for ELMAH</title>
-    <authors>Atif Aziz</authors>
-    <owners>Atif Aziz, James Driscoll</owners>
+    <authors>Nick Berardi</authors>
+    <owners>Nick Berardi, Atif Aziz, James Driscoll</owners>
     <licenseUrl>http://www.apache.org/licenses/LICENSE-2.0</licenseUrl>
     <projectUrl>https://github.com/elmah/MySqlErrorLog</projectUrl>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>

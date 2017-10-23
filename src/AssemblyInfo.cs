@@ -1,11 +1,4 @@
-#region License, Terms and Author(s)
-//
-// ELMAH - Error Logging Modules and Handlers for ASP.NET
-// Copyright (c) 2004-9 Atif Aziz. All rights reserved.
-//
-//  Author(s):
-//
-//      Atif Aziz, http://www.raboof.com
+#region Copyright 2009 Nick Berardi. All rights reserved.
 //
 // Licensed under the Apache License, Version 2.0 (the "License");
 // you may not use this file except in compliance with the License.
@@ -35,7 +28,7 @@ using InternalsVisibleToAttribute = System.Runtime.CompilerServices.InternalsVis
 [assembly: AssemblyDescription("MySQL Support for ELMAH")]
 [assembly: AssemblyCompany("")]
 [assembly: AssemblyProduct("ELMAH")]
-[assembly: AssemblyCopyright("Copyright \u00a9 2004, Atif Aziz. All rights reserved.")]
+[assembly: AssemblyCopyright("Copyright \u00a9 2009, Nick Berardi. All rights reserved.")]
 [assembly: AssemblyCulture("")]
 
 [assembly: AssemblyVersion("2.0.11227.0")]
